@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIMA — Chatbot Pelayanan Masyarakat</title>
+  <meta name="description" content="BIMA adalah asisten layanan publik berbasis data. Pertanyaan di luar data akan ditindaklanjuti dan direspons maksimal 24 jam sesuai ketersediaan data.">
+  <link rel="stylesheet" href="landing.css">
+  <link rel="icon" href="assets/Logo.jpeg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <span class="brand-name">BIMA</span>
+      </div>
+      <nav class="nav">
+        <a href="#fitur">Fitur</a>
+        <a href="#cara-kerja">Cara Kerja</a>
+        <a href="#faq">FAQ</a>
+        <a href="chat.html" id="nav-chat" class="btn btn-primary">Mulai Chat</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Layanan Publik Lebih Mudah dengan BIMA</h1>
+          <p>BIMA adalah chatbot pelayanan masyarakat yang menjawab berdasarkan data yang tersedia. Untuk pertanyaan di luar data, tim kami akan menindaklanjuti dan memberikan respons maksimal 24 jam sesuai ketersediaan data.</p>
+          <div class="hero-cta">
+            <a href="chat.html" id="hero-chat" class="btn btn-primary">Mulai Chat Sekarang</a>
+            <a href="#fitur" class="btn btn-ghost">Pelajari Layanan</a>
+          </div>
+          <div class="note">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            <span>Catatan: Chatbot ini hanya menggunakan data yang tersedia. Pertanyaan di luar cakupan data akan direspons maksimal 24 jam sesuai ketersediaan data.</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="preview-card">
+            <div class="preview-header">BIMA</div>
+            <div class="preview-body">
+              <div class="bubble bot">Halo! Ada yang bisa saya bantu terkait pelayanan publik?</div>
+              <div class="bubble user">Jam layanan</div>
+              <div class="bubble bot">Layanan dibuka Senin–Jumat pukul 08.00–16.00 WIB.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fitur" class="section">
+      <div class="container">
+        <h2 class="section-title">Mengapa Memilih BIMA?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="icon">⚡</div>
+            <h3>Cepat</h3>
+            <p>Jawaban instan dari basis data yang selalu diperbarui.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">✅</div>
+            <h3>Tepat</h3>
+            <p>Respon sesuai data resmi—minim miskomunikasi.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🕒</div>
+            <h3>Tindak Lanjut 24 Jam</h3>
+            <p>Pertanyaan di luar data akan ditindaklanjuti maksimal 24 jam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cara-kerja" class="section">
+      <div class="container">
+        <h2 class="section-title">Cara Kerja</h2>
+        <ol class="steps">
+          <li><span>1</span> Ajukan pertanyaan melalui chat.</li>
+          <li><span>2</span> Dapatkan jawaban otomatis dari data yang tersedia.</li>
+          <li><span>3</span> Jika di luar data, tim akan menindaklanjuti dan merespons maksimal 24 jam.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <h2 class="section-title">FAQ</h2>
+        <details>
+          <summary>Apakah BIMA menggunakan AI?</summary>
+          <p>BIMA menjawab berdasarkan data yang tersedia pada sistem. Tidak ada pengolahan data di luar sumber yang telah ditentukan.</p>
+        </details>
+        <details>
+          <summary>Bagaimana jika jawaban tidak ditemukan?</summary>
+          <p>Pertanyaan akan diteruskan ke tim terkait dan direspons maksimal 24 jam sesuai ketersediaan data.</p>
+        </details>
+        <details>
+          <summary>Di jam berapa layanan tersedia?</summary>
+          <p>Chat tersedia 24/7. Jika perlu tindak lanjut petugas, proses mengikuti jam kerja.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="brand">
+        <span class="brand-name">BIMA</span>
+      </div>
+      <div class="copyright">© <span id="year"></span> BIMA. Semua hak dilindungi.</div>
+    </div>
+  </footer>
+
+  <button class="chat-toggle" id="chat-toggle" aria-label="Buka chat">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+  </button>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

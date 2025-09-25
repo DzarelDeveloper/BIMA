@@ -1,0 +1,104 @@
+{
+    "Informasi Umum": [
+        {
+            "keyword": ["jam kerja", "jam layanan", "operasional"],
+            "synonyms": ["buka", "tutup", "waktu", "jam buka", "jam tutup"],
+            "answer": "Jam layanan kami adalah Senin-Jumat, pukul 08.00 - 15.00 WIB."
+        },
+        {
+            "keyword": ["alamat", "lokasi"],
+            "synonyms": ["tempat", "kantor", "dimana", "letak"],
+            "answer": "Kantor kami beralamat di Jalan Contoh No. 123, Kota Contoh, Provinsi Contoh."
+        },
+        {
+            "keyword": ["kontak", "telepon", "whatsapp", "wa", "hubungi admin"],
+            "synonyms": ["hubungi", "nomor", "telpon", "telfon", "chat admin"],
+            "answer": "Anda bisa menghubungi admin kami melalui WhatsApp di <a href='https://wa.me/6288293208245' target='_blank'>klik disini</a> atau telepon di (021) 1234567"
+        },
+        {
+            "keyword": ["website", "situs web", "portal"],
+            "synonyms": ["situs", "online", "web"],
+            "answer": "Silakan kunjungi website resmi kami di <a href='https://dzarel.com' target='_blank'>dzarel.com</a> untuk informasi lebih lanjut."
+        },
+        {
+            "keyword": ["email", "surat elektronik"],
+            "synonyms": ["surel", "kirim pesan", "mail"],
+            "answer": "Untuk pertanyaan lebih lanjut, silakan kirim email di website <a href='https://dzarel.com' target='_blank'>dzarel.com</a>."
+        }
+    ],
+    "Administrasi": [
+        {
+            "keyword": ["syarat ktp", "buat ktp", "perpanjang ktp"],
+            "synonyms": ["persyaratan ktp", "dokumen ktp", "bikin ktp", "ganti ktp"],
+            "answer": "Syarat pembuatan/perpanjangan KTP:\n1. Fotokopi Akta Kelahiran\n2. Fotokopi Kartu Keluarga\n3. Surat Pengantar RT/RW\n4. Foto berwarna 3x4 (2 lembar)\n5. KTP lama (untuk perpanjangan)"
+        },
+        {
+            "keyword": ["syarat kk", "buat kk", "update kk"],
+            "synonyms": ["persyaratan kk", "dokumen kk", "kartu keluarga", "perbarui kk"],
+            "answer": "Syarat pembuatan/update Kartu Keluarga:\n1. Fotokopi Buku Nikah/Akta Perkawinan\n2. Fotokopi KTP seluruh anggota keluarga\n3. Surat Pengantar RT/RW\n4. KK lama (untuk update)\n5. Surat keterangan pindah (jika ada perubahan alamat)"
+        },
+        {
+            "keyword": ["akta lahir", "buat akta lahir"],
+            "synonyms": ["persyaratan akta lahir", "dokumen akta lahir", "akte kelahiran"],
+            "answer": "Syarat pembuatan Akta Kelahiran:\n1. Surat Keterangan Lahir dari RS/Bidan\n2. Fotokopi KTP kedua orang tua\n3. Fotokopi Kartu Keluarga\n4. Fotokopi Buku Nikah orang tua\n5. Surat Pengantar RT/RW"
+        },
+        {
+            "keyword": ["surat pindah", "pindah domisili"],
+            "synonyms": ["mutasi penduduk", "pindah alamat", "surat keterangan pindah"],
+            "answer": "Syarat pembuatan surat pindah:\n1. KTP asli\n2. Fotokopi KK\n3. Surat Pengantar RT/RW\n4. Surat keterangan pindah dari daerah asal\n5. Pas foto 3x4 (2 lembar)"
+        }
+    ],
+    "Pelayanan Khusus": [
+        {
+            "keyword": ["izin usaha", "buat izin usaha", "siup"],
+            "synonyms": ["siup", "tdp", "nib", "izin dagang"],
+            "answer": "Syarat pembuatan izin usaha:\n1. KTP\n2. NPWP\n3. Surat Keterangan Domisili Usaha\n4. Pas foto 3x4 (2 lembar)\n5. Mengisi formulir pendaftaran\n\nUntuk informasi lebih detail, silakan kunjungi website kami di <a href='https://www.contoh.go.id/izin-usaha' target='_blank'>www.contoh.go.id/izin-usaha</a>"
+        },
+        {
+            "keyword": ["pengaduan", "lapor masalah", "komplain"],
+            "synonyms": ["komplain", "keluhan", "masalah", "kendala"],
+            "answer": "Untuk menyampaikan pengaduan, Anda dapat:\n1. Mengunjungi website kami di bagian 'Pengaduan Online'\n2. Menghubungi admin via WhatsApp: <a href='https://wa.me/6281234567890' target='_blank'>klik disini</a>\n3. Datang langsung ke meja informasi\n\nKami akan merespons pengaduan Anda secepatnya."
+        }
+    ],
+    "Percakapan Umum": [
+        {
+            "keyword": ["terima kasih", "makasih", "thank"],
+            "synonyms": ["trimakasih", "tq", "thx", "thanks", "makasi"],
+            "answer": "Sama-sama! Senang bisa membantu Anda. Ada yang bisa saya bantu lagi?"
+        },
+        {
+            "keyword": ["halo", "hai", "hi", "hello"],
+            "synonyms": ["hei", "hey", "selamat pagi", "selamat siang", "selamat sore", "selamat malam"],
+            "answer": "Halo! Selamat datang di layanan chatbot kami. Ada yang bisa saya bantu?"
+        },
+        {
+            "keyword": ["tidak mengerti", "tidak paham", "bingung"],
+            "synonyms": ["ga ngerti", "gak paham", "kurang jelas"],
+            "answer": "Maaf jika penjelasan saya kurang jelas. Anda bisa:\n1. Mengajukan pertanyaan dengan cara berbeda\n2. Menghubungi admin kami via WhatsApp: <a href='https://wa.me/6281234567890' target='_blank'>klik disini</a>\n3. Mengunjungi website kami di <a href='https://www.contoh.go.id' target='_blank'>www.contoh.go.id</a>"
+        },
+        {
+            "keyword": ["biaya", "tarif", "harga"],
+            "synonyms": ["bayar", "ongkos", "budget", "kena berapa"],
+            "answer": "Untuk informasi biaya layanan, silakan cek di website kami <a href='https://www.contoh.go.id/biaya' target='_blank'>www.contoh.go.id/biaya</a> atau hubungi admin via WhatsApp: <a href='https://wa.me/6281234567890' target='_blank'>klik disini</a>"
+        }
+    ],
+    "Bantuan": [
+        {
+            "keyword": ["bantuan", "help", "tolong"],
+            "synonyms": ["bantu", "assistance", "panduan"],
+            "answer": "Saya siap membantu Anda dengan informasi tentang:\n1. Layanan administrasi (KTP, KK, dll)\n2. Izin usaha\n3. Pengaduan\n4. Informasi umum\n\nSilakan pilih topik yang Anda butuhkan atau ketik pertanyaan Anda."
+        },
+        {
+            "keyword": ["error", "gagal", "masalah teknis"],
+            "synonyms": ["bug", "tidak bisa", "bermasalah"],
+            "answer": "Mohon maaf atas kendalanya. Silakan hubungi tim teknis kami:\n1. WhatsApp: <a href='https://wa.me/6281234567890' target='_blank'>klik disini</a>\n2. Email: support@contoh.go.id"
+        }
+    ],
+    "Default": [
+        {
+            "keyword": ["default"],
+            "synonyms": [],
+            "answer": "Maaf, saya tidak dapat menemukan jawaban yang sesuai. Silakan:\n1. Hubungi admin kami via WhatsApp: <a href='https://wa.me/6281234567890' target='_blank'>klik disini</a>\n2. Kunjungi website kami di <a href='https://www.contoh.go.id' target='_blank'>www.contoh.go.id</a>\n3. Atau ajukan pertanyaan dengan cara berbeda"
+        }
+    ]
+}

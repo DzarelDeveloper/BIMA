@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot Pelayanan Masyarakat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating Widget -->
+  <div class="chatbot-widget" id="chatbot-widget">
+    <div class="chatbot-header">
+      <div class="brand">
+        <img src="assets/Logo.jpeg" alt="BIMA Logo" class="brand-logo">
+        <div class="brand-meta">
+          <h1>BIMA</h1>
+          <p class="brand-tagline">Asisten Pelayanan Masyarakat</p>
+        </div>
+      </div>
+      <div class="status-pill"><span class="dot"></span> Online</div>
+    </div>
+
+    <div class="chatbot-messages" id="chatbot-messages"></div>
+
+    <div class="chatbot-quick-replies" id="chatbot-quick-replies">
+      <button class="quick-reply-button" data-question="jam layanan">Jam Layanan</button>
+      <button class="quick-reply-button" data-question="alamat">Alamat</button>
+      <button class="quick-reply-button" data-question="syarat surat">Syarat Surat</button>
+    </div>
+
+    <div class="chatbot-input-container">
+      <input type="text" id="chatbot-input" placeholder="Ketik pesan Anda...">
+      <button id="chatbot-send">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
