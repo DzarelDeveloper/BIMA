@@ -1,6 +1,6 @@
 # BIMA - Chatbot Pelayanan Masyarakat
 
-✨ **Ingin Panduan Lengkap?** Kunjungi postingan blog kami untuk tutorial mendalam: [Link Blog Kalian] ✨
+✨ **Ingin Panduan Lengkap?** Kunjungi postingan blog kami untuk tutorial mendalam: [https://www.dzarel.web.id/2025/09/tutorial-yuk-bikin-chatbot-pelayanan.html] ✨
 
 BIMA adalah sebuah proyek chatbot sederhana yang dirancang untuk memberikan informasi terkait pelayanan publik. Chatbot ini bekerja berdasarkan data yang telah ditentukan dalam format JSON, memberikan jawaban cepat untuk pertanyaan-pertanyaan umum seputar layanan masyarakat.
 
